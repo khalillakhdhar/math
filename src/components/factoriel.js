@@ -15,7 +15,7 @@ for(let i=2;i<=n;i++)
 {
     f=f*i;
 }
-//this.setState({result:"la factoriel est: "+f});
+this.setState({result:"la factoriel est: "+f});
 alert("la factoriel est: "+f);
 }
     render()

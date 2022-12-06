@@ -12,7 +12,7 @@ diviseur= () =>
 {
     let v1=this.state.valeur1;
     let v2=this.state.valeur2;
-    while(v1!=v2)
+    while(v1!==v2)
     {
         if(v1>v2)
         {
